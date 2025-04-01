@@ -28,10 +28,10 @@ export default function Routes() {
       />
       
       <Tab.Screen
-        name="Alerta"
+        name="Playlist"
         component={Alerta}
         options={{
-          tabBarLabel: 'Alerta',
+          tabBarLabel: 'Playlist',
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="bell" color={color} size={size} />
           ),
