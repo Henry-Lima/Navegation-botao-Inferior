@@ -33,7 +33,7 @@ export default function Routes() {
         options={{
           tabBarLabel: 'Playlist',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
+            <MaterialCommunityIcons name="magnify" color={color} size={size} />
           ),
         }}
       />
